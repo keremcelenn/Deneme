@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { SafeAreaView, Text, View, TextInput, FlatList, Button } from 'react-native'
 import database from '@react-native-firebase/database'
 
-//En basit anlamda firebase e veri alıp göndermenin tek bir sayfada olduğu sayfa.
+//En basit anlamda firebase e veri alıp göndermenin tek bir sayfada olduğu sayfadır.
 const MainPage = props => {
     const [data, setData] = useState("")
     const [list, setList] = useState("")
